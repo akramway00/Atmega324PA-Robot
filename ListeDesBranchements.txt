@@ -1,0 +1,76 @@
+=======================================================================
+=======================================================================
+LISTE DES BRANCHEMENTS POUR LE ROBOT R1
+=======================================================================
+
+
+son: PD7->HOT
+     PD6->GROUND
+
+distance:
+     PC-VCC->HOT
+     PC-GND->GROUND
+     PD0->OUTPUT
+
+capteur ir:
+     PA-VCC->HOT
+     PA-GND->GROUND
+     PA3->OUTPUT
+
+Moteur droit:
+     PB1
+     PB3
+
+Moteur gauche:
+     PB4
+     PB7
+
+del libre:
+     PC3
+     PC2
+
+son:
+     PD7->HOT
+     PD6->GROUND
+
+ROBOT R2
+
+
+
+PWM MOTEURS : 
+    DROITE :
+        SIGNAL -> PB3
+        DIRECTION -> PB1
+    GAUCHE :
+        SIGNAL -> PB4
+        DIRECTION -> PB6
+		
+=======================================================================
+=======================================================================
+LISTE DES BRANCHEMENTS POUR LE ROBOT R2
+=======================================================================
+
+Branchements Robot R2
+
+S1 - Vert - Broche A3 PA2
+S2 - Bleu - Broche A4 PA3
+S3 - Mauve - Broche A5 PA4
+S4 - Gris - Broche A6 PA5
+S5 - Blanc - Broche A7 PA6
+VCC  + GND Capteur Lignes - PORTA
+
+Bouton Blanc - PB2 (INT2) + PB0
+PWM - Moteur droit - PB3
+Direction - Moteur droit - PB1
+PWM - Moteur gauche - PB4
+Direction - Moteur droit - PB6
+VCC + GND Bouton Blanc - PORTB
+
+DEL NORMALE - PC2 + PC3
+GND DEL INFRAROUGE - PORTC
+
+TIMER DEL INFRAROUGE - PD5
+SON - FIL ROUGE - PD7
+SON - FIL NOIR - PD6
+		
+
