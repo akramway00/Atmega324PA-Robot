@@ -32,7 +32,7 @@ This project involves developing two autonomous robots using the ATmega324PA mic
 - **Real-Time Communication**: Implements RS232 and infrared for inter-robot data transfer.
 
 ## Hardware Connections
-The detailed hardware connections for both Robot R1 and Robot R2 can be found in the file `ListeDesBranchements.txt`.
+The detailed hardware connections for both Robot R1 and Robot R2 can be found in the file `CablingConnections.txt`.
 
 ## Installation
 1. **Clone the Repository**:
